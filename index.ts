@@ -1,4 +1,7 @@
+#! /usr/bin/env node 
+
 import inquirer from "inquirer";
+
 
 const randomNumber = Math.floor(Math.random() * 10 + 1); //it will generate numbers from 1-10 now
 
