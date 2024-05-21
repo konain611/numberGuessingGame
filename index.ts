@@ -19,7 +19,7 @@ if(answer.userGuessedNumber > 10){
 }
 
 else if(answer.userGuessedNumber === randomNumber){
-    console.log("Congratulations. You Guessed the right number. YAYY");
+    console.log("Congratulations... You Guessed the right number. YAYY");
     console.log(`The Random number was actually ${randomNumber} :D`);
 }
 else{
