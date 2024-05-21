@@ -1,6 +1,6 @@
 import inquirer from "inquirer";
 
-const randomNumber = 27;
+const randomNumber = Math.random();
 
 const answer = await inquirer.prompt([
     {
