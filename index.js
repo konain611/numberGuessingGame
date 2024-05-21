@@ -12,7 +12,7 @@ if (answer.userGuessedNumber > 10) {
     console.log("Please guess the number between the given range.");
 }
 else if (answer.userGuessedNumber === randomNumber) {
-    console.log("Congratulations. You Guessed the right number. YAYY");
+    console.log("Congratulations... You Guessed the right number. YAYY");
     console.log(`The Random number was actually ${randomNumber} :D`);
 }
 else {
