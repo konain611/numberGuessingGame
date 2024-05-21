@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-const randomNumber = 27;
+const randomNumber = Math.floor(Math.random() * 10 + 1); //it will generate numbers from 1-10 now
 const answer = await inquirer.prompt([
     {
         name: "userGuessedNumber",
@@ -13,3 +13,4 @@ if (answer.userGuessedNumber === randomNumber) {
 else {
     console.log("You guessed the wrong number :( ");
 }
+console.log(`The Random number was ${randomNumber}`);
